@@ -2,6 +2,8 @@
 
 # Proyecto Astreo: Aviónica de Vuelo
 
+Repositorio Realizado por los estudiantes de Ingeniería Electrónica Cerri Lucas y Diaz Pablo en el año 2026.
+
 Este repositorio contiene el firmware y los esquemas de hardware para la computadora de vuelo del **Proyecto Astreo**, un desarrollo de cohetería experimental amateur. El proyecto se enmarca dentro de las Prácticas Profesionales Supervisadas (PPS) de la Facultad de Ciencias Exactas, Físicas y Naturales (FCEFyN) de la Universidad Nacional de Córdoba.
 
 El objetivo principal de esta placa es estimar la cinemática del cohete en tiempo real, detectar el momento exacto del apogeo y comandar el despliegue del paracaídas de forma segura.
