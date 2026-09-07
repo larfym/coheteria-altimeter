@@ -6,6 +6,11 @@ Este repositorio contiene el firmware y los esquemas de hardware para la computa
 
 El objetivo principal de esta placa es estimar la cinemática del cohete en tiempo real, detectar el momento exacto del apogeo y comandar el despliegue del paracaídas de forma segura.
 
+## Hardware principal
+* **Cerebro:** STM32F103C8T6 (BluePill)
+* **Sensores:** Barómetro BMP280 e IMU MPU6050 comunicados por I2C.
+* **Alimentación:** Batería de 9V regulada a 3.3V mediante un módulo step-down MP1584.
+
 1. Inicialización y Calibración en Rampa
 Al encender, el sistema realiza rutinas de seguridad y calibración antes de permitir el vuelo:
 
@@ -57,11 +62,6 @@ Comando S o s: Despliega el reporte analítico completo y vuelca todo el arreglo
 
 6. Protecciones Electrónicas Incorporadas
 El firmware incluye control térmico sobre los periféricos de recuperación. Una vez que se ordena activar la pirotecnia de cualquier paracaídas, el microcontrolador corta la corriente de los MOSFETs exactamente 2 segundos después. Esto evita que las baterías de polímero de litio se cortocircuiten o que los transistores se quemen por esfuerzo continuo una vez que la carga ya explotó.
-
-## Hardware principal
-* **Cerebro:** STM32F103C8T6 (BluePill)
-* **Sensores:** Barómetro BMP280 e IMU MPU6050 comunicados por I2C.
-* **Alimentación:** Batería de 9V regulada a 3.3V mediante un módulo step-down MP1584.
 
 ## Estructura del repositorio
 
