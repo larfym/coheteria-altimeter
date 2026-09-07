@@ -11,6 +11,7 @@ El objetivo principal de esta placa es estimar la cinemática del cohete en tiem
 * **Sensores:** Barómetro BMP280 e IMU MPU6050 comunicados por I2C.
 * **Alimentación:** Batería de 9V regulada a 3.3V mediante un módulo step-down MP1584.
 
+## Funcionamiento de Vuelo
 1. Inicialización y Calibración en Rampa
 Al encender, el sistema realiza rutinas de seguridad y calibración antes de permitir el vuelo:
 
