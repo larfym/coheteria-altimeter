@@ -9,7 +9,7 @@ Este repositorio contiene el firmware y los esquemas de hardware para la computa
 El objetivo principal de esta placa es estimar la cinemática del cohete en tiempo real, detectar el momento exacto del apogeo y comandar el despliegue del paracaídas de forma segura.
 
 ## Hardware principal
-* **Cerebro:** STM32F103C8T6 (BluePill)
+* **Microcontrolador:** STM32F103C8T6 (BluePill)
 * **Sensores:** Barómetro BMP280 e IMU MPU6050 comunicados por I2C.
 * **Alimentación:** Batería de 9V regulada a 3.3V mediante un módulo step-down MP1584.
 
